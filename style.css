@@ -1,0 +1,174 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 20px;
+text-align: center;
+background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;}
+
+.index button {
+padding: 10px 20px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 18px;
+}
+.index button:hover {
+background-color: #0056b3;
+}
+
+
+
+.liste h1 {
+    color: rgb(49, 73, 168); 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.liste a {
+    color:rgb(49, 73, 168);
+    text-decoration: none;
+}
+
+.liste a:hover {
+    text-decoration: underline; 
+}
+
+.liste table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.liste th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.liste th {
+    background-color:rgb(49, 73, 168); /* Couleur d'arrière-plan des en-têtes */
+    color: white; /* Couleur du texte des en-têtes */
+}
+
+.liste tr:hover {
+    background-color: #f1f1f1; /* Couleur de fond au survol des lignes */
+}
+
+.liste button {
+    background-color:rgb(49, 73, 168) ; /* Couleur de fond pour le bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.liste button:hover {
+    background-color:rgb(49, 73, 168); /* Couleur de fond au survol du bouton */
+}
+
+
+.ajouter h1 {
+    color: rgb(49, 73, 168);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ajouter form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ajouter input[type="text"],
+.ajouter input[type="number"],
+.ajouter select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.ajouter button {
+    background-color: rgb(49, 73, 168);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ajouter button:hover {
+    background-color: rgb(49, 73, 168);
+}
+
+.ajouter a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(49, 73, 168);
+    text-decoration: none;
+}
+
+.ajouter a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.modif h1 {
+    color: rgb(49, 73, 168); /* Couleur du titre */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modif form  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.modif input[type="text"],
+.modif input[type="number"],
+.modif select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.modif button {
+    background-color: rgb(49, 73, 168); /* Couleur de fond pour le bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modif button:hover {
+    background-color: rgb(49, 73, 168); /* Couleur de fond au survol du bouton */
+}
+
+.modif a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(49, 73, 168);
+    text-decoration: none;
+}
+
+.modif a:hover {
+   text-decoration: underline; /* Sous-ligne au survol */
+}
