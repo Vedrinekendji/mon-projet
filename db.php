@@ -1,7 +1,7 @@
 <?php
 $host='db';
 $db='biblio';
-$user= 'root';
+$user= 'user';
 $pass= 'toutoutou';
 $con=mysqli_connect($host,$user,$pass,$db);
 if(!$con){

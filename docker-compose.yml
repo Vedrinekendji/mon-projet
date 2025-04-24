@@ -16,7 +16,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: biblio
-      MYSQL_USER: root
+      MYSQL_USER: user
       MYSQL_PASSWORD: toutoutou
     volumes:
       - dbdata:/var/lib/mysql
